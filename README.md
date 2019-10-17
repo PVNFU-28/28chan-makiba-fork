@@ -23,3 +23,4 @@ Installation
 4) Enter the location of the database
 5) Click "install". Hopefully you'll end up at the welcome screen; if
    not, you should be given instructions on how to fix any errors~
+discord server for technical support https://discord.gg/EykmrdH
