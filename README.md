@@ -1,6 +1,6 @@
 # makiba
 Imageboard software on /devel/
-tomokochan Development
+makiba Development
 ~~~~~~~~~~~~~~~~~~~
 This is the main branch of makiba if you know anything at all about
 running websites, this is the version to use. Alternatively if you want
