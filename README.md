@@ -14,4 +14,3 @@ i duno lol
 Installation
 ~~~~~~~~~~~~
 1)i dunno lol
-discord server for technical support https://discord.gg/EykmrdH
