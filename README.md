@@ -2,15 +2,12 @@
 Imageboard software on /devel/
 makiba Development
 ~~~~~~~~~~~~~~~~~~~
-This is the main branch of makiba if you know anything at all about
-running websites, this is the best software you will ever shitpost with
+Lightweight PHP imageboard script with SQLite database.
 
+A ONE page imageboard, works on php 7.4 Lightweight PHP imageboard script with SQLite database. Based on TinyIB & TinyIB-mappy code.
 
-Requirements
-~~~~~~~~~~~~
-i duno lol
 
 
 Installation
 ~~~~~~~~~~~~
-1)i dunno lol
+not complete yet 
