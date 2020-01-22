@@ -18,7 +18,7 @@
 
       if(empty($errors)==true){
          move_uploaded_file($file_tmp,"cdn/".$file_name);
-         echo "Success";
+         echo "You made your first post on the internet!!!! ｷﾀ━━━(ﾟ∀ﾟ)━━━!!";
       }else{
          print_r($errors);
       }
