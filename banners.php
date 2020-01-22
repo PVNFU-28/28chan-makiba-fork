@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>64chan Banners</title>
+<title>Banners</title>
 </head>
 <body>
 <?php
