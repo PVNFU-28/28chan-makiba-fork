@@ -1,1 +1,0 @@
-<html><body><h1>Showing all posts:</h1><?php $query = mysql_query('SELECT * FROM wakaba_beta.posts; foreach($row = mysql_fetch_assoc($query) { echo "<p>Name: ".$row['name']."<br />".htmlspecialchars(str_replace(PHP.EOL,"<br />",$row['comment']))."</p>"; ?></body></html>
