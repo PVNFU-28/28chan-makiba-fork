@@ -513,7 +513,7 @@ $body = '
                 $body .= $returnlink . "\n" . $htmlposts;
         }
         $body .= <<<EOF
-<div class="adminbar"><a href="https://github.com/ClaireIsAlive/Claire">Claire</a> + <a href="https://github.com/ShivaMod/Claire">Cajita</a></div>
+<div class="adminbar"><a href="https://github.com/maki64/makiba/">makiba</a></div>
                <div class="pagelinks">
                         $pagelinks
                 </div>
@@ -741,7 +741,7 @@ function fancyDie($message, $depth=1) {
 <br>
         '.str_replace("\n", '<br>', $message).'
         
-<div class="adminbar" style="float:right"><a href="https://github.com/ClaireIsAlive/Claire">Claire</a> + <a href="https://github.com/ShivaMod/Claire">Cajita</a></div>
+<div class="adminbar" style="float:right"><a href="https://github.com/maki64/makiba/">makiba</a></div>
 </body>
         ');
 }
