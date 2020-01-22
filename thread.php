@@ -3,7 +3,7 @@
 ?>
 <HTML>
   <head>
-    <link rel="stylesheet" type="text/css" href="static/krila.css">
+    <link rel="stylesheet" type="text/css" href="static/yotsuba.css">
   </head>
   <body>
     <div id="boardsection"></div>
