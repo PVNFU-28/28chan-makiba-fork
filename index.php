@@ -262,7 +262,7 @@ if (CLAIRE_BLOGMODE) {
                                                 </td>
                                         </tr>
                 ';
-        } if (!CLAIRE_TEXTMODE) {
+        } if (!MAKI_TEXTMODE) {
         $body .= '
                                         <tr>
                                                 <td class="postblock">Image</td>
@@ -341,7 +341,7 @@ elseif (!$parent && LOGGED_IN) {
                                                 </td>
                                         </tr>
                 ';
-        } if (!CLAIRE_TEXTMODE) {
+        } if (!MAKI_TEXTMODE) {
         $body .= '
                                         <tr>
                                                 <td class="postblock">Image</td>
@@ -426,7 +426,7 @@ $body = '
                                                 </td>
                                         </tr>
                 ';
-        } if (!CLAIRE_TEXTMODE) {
+        } if (!MAKI_TEXTMODE) {
         $body .= '
                                         <tr>
                                                 <td class="postblock">Image</td>
