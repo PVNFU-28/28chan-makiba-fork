@@ -19,9 +19,7 @@
       }else{
          print_r($errors);
       }
-   }
-   else {
-     echo 'kys off fam';
+   
    }
    if(!isset($_POST['name']))
    {
