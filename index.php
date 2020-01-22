@@ -1479,7 +1479,7 @@ function handlePost() {
                         $post['image_width'] = $file_info[0]; $post['image_height'] = $file_info[1];
                 }
         }
-if (!CLAIRE_TEXTMODE) {
+if (!MAKI_TEXTMODE) {
         if ($post['file'] == '') { // No file uploaded
                 if ($post['parent'] == '0') {
                         fancyDie("An image is required to start a thread.");
