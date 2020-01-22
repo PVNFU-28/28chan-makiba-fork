@@ -1,0 +1,43 @@
+body{
+        background-color:#eef2ff;
+        background-image: linear-gradient(#d1d5ee,#eef2ff 200px);
+        background-repeat: repeat-x;
+}
+.boardNav{color:#89a;}
+.postNum a,.postNum a:visited,.reflink,body{color:black;}
+.logo{color:#af0a0f;}
+a,a:visited{color:#34345c;}
+.sideArrows{color:#b7c5d9;}
+#pager,.reply{
+        border-right-style:solid;
+        border-bottom-style:solid;
+        border-color:#b7c5d9;
+}
+input[type="text"],input[type="password"],textarea{
+        border-style:solid;
+        border-color:#aaa;
+}
+input[type="text"]:focus,input[type="password"]:focus,textarea:focus{border-color:#98e;}
+a:hover{color:#d00!important;}
+.postblock,.postlists th{
+        background-color:#98e;
+        border-style:solid;
+}
+hr{border-color:#b7c5d9;}
+.subject{color:#0f0c5d;}
+.nameBlock{color:#117743;}
+.postlists tr:nth-of-type(odd),.reply,#pager{background-color:#d6daf0;}
+.postlists tr:target,table:target .post.reply{
+        background-color:#d6bad0;
+        border-color:#ba9dbf;
+}
+#errormsg{color:red}
+.omittedposts{color:#707070}
+.viewmode,.replymode{
+        background-color:#0010E0;
+        color:#fff;
+}
+.unkfunc{color:#789922;}
+.unkfunc2{color:#FF69B3;}
+.quotelink{color:#d00;}
+.backlink a{color:#34345C;}
