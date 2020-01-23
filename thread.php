@@ -92,7 +92,7 @@
 							echo '<span id="body">' . str_replace("#","",$line) . '</span><br>';
 							if($firsttitle === 0)
 							{
-								echo '<title>/krila/ - ' . str_replace("#","",$line) . '</title>';
+								echo '<title>/b/ - ' . str_replace("#","",$line) . '</title>';
 								$firsttitle = 1;
 							}
 						}
