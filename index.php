@@ -9,11 +9,67 @@
     <div id="boardname">/b/ - ullshit</div><br>
     <div id="threadcreate">
       <form enctype="multipart/form-data"  action="post.php" method="post">
-        <input type="text" name="name" id="name"><label id="threadlabel" for="name"> Name</label><br>
-        <input type="text" name="title" id="title"><label id="threadlabel" for="title"> Subject</label><br>
-        <textarea name="body" id="body"></textarea><label id="threadlabel" for="body"> Comment</label><br>
-        <input type="file" name="image">
-        <input type="submit" name="submit" value="Post" style="float: right; margin-right: 50px;"><br><br>
+       <form name="postform" id="postform" action="thread.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="MAX_FILE_SIZE" value="2097152">
+			<input type="hidden" name="parent" value="0">
+			<table class="postform">
+				<tbody>
+					<tr>
+						<td class="postblock">
+							Name
+						</td>
+						<td>
+							<input type="text" name="name" size="28" maxlength="75" accesskey="n">
+						</td>
+					</tr>
+					<tr>
+						<td class="postblock">
+							E-mail
+						</td>
+						<td>
+							<input type="text" name="email" size="28" maxlength="75" accesskey="e">
+						</td>
+					</tr>
+					<tr>
+						<td class="postblock">
+							Subject
+						</td>
+						<td>
+							<input type="text" name="subject" size="40" maxlength="75" accesskey="s" autocomplete="off">
+							<input type="submit" value="Submit" accesskey="z">
+						</td>
+					</tr>
+					<tr>
+						<td class="postblock">
+							Message
+						</td>
+						<td>
+							<textarea id="message" name="message" cols="48" rows="4" accesskey="m"></textarea>
+						</td>
+					</tr>
+					
+										<tr>
+						<td class="postblock">
+							File
+						</td>
+						<td>
+							<input type="file" name="file" size="35" accesskey="f">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="rules">
+							<ul>
+								
+								<li>Supported file types are JPG, PNG and GIF.</li>
+								<li>Maximum file size allowed is 2 MB.</li>
+								<li>Images greater than 250x250 will be thumbnailed.</li>
+								
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+      </form>
       </form>
     </div>
     <hr>
