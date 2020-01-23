@@ -8,8 +8,8 @@
     <a href="javascript:location.reload();"><img src="static/logo.png" id="logo"></a><br>
     <div id="boardname">/b/ - ullshit</div><br>
     <div id="threadcreate">
-      <form enctype="multipart/form-data"  action="post.php.php" method="post">
-       <form name="postform" id="postform" action="postcomment.php.php" method="post" enctype="multipart/form-data">
+      <form enctype="multipart/form-data"  action="post.php" method="post">
+       <form name="postform" id="postform" action="postcomment.php" method="post" enctype="multipart/form-data">
 			<input type="hidden" name="MAX_FILE_SIZE" value="2097152">
 			<input type="hidden" name="parent" value="0">
 			<table class="postform">
