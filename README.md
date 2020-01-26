@@ -2,7 +2,7 @@
 Imageboard software on /devel/
 makiba Development
 ~~~~~~~~~~~~~~~~~~~
-small imageboard script- requires two directories: thread/ and cdn/
+small imageboard script- on devel
 
 
 Installation
