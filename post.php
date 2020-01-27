@@ -608,7 +608,7 @@ function all_posts_struct($posts){
 }
 
 function footer(){
-    return '<footer style="margin-top:20px;font-size:small;text-align:center;clear:both;">makiba, inspired by <a href="http://www.2chan.net/">futaba</a></footer>';
+    return '<footer style="margin-top:20px;font-size:small;text-align:center;clear:both;">makiba, inspired by <a href="http://www.64ch.net/">64chan</a></footer>';
 }
 
 function generatepage($posts, $page){
