@@ -1,6 +1,7 @@
 # makiba
 Imageboard software on /devel/
 makiba Development
+~~~~~~~~~~~~~~~~~~~
 
 #credits
 tripcode!q/7 - helping out with the software
