@@ -547,7 +547,7 @@ function all_posts_struct($posts){
 }
 
 function footer(){
-    return '<footer style="margin-top:20px;font-size:small;text-align:center;clear:both;">makiba, imageboard software
+ return '<footer style="margin-top:20px;font-size:small;text-align:center;clear:both;">makiba, imageboard software</footer>
 }
 
 function generatepage($posts, $page){
