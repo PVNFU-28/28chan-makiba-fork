@@ -1,27 +1,6 @@
 <?php
-
-//Get all the submited data from the form
-$images = $FILE_['image']['name'];
-$text = $_POST['text'];
-
-$sql = "INSERT INTO images (images, text) VALUE( '$image',  '$text')";
-mysqli_query($db, $sql); //stores the submitted data into the database tables: images
-
-	if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
-  		$msg = "Image uploaded successfully";
- 
-}else{
   
-  $msg = "There was a problem uploading image";
-  }
 
-
-
-}
-
-
-?>
-<?php
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');
 define("TITLE", "your imageboard title"); // board title
