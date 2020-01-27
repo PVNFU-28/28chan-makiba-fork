@@ -13,17 +13,20 @@ small imageboard script- on devel
 
 Installation
 ~~~~~~~~~~~~
-Create a database called image_upload and create a table called images with fields:
 
-id - int(11)
-image - varchar(100)
-image_text - text
-Create a file called index.php
+To install, move all the files in the repo to a directory in the
+root of your webserver. For example, for a board called `/b/`, move
+them to /usr/share/nginx/html/b/. Create the directories `src`,
+`thumb` and `res` and the file `posts` and make sure they are all
+writable to by the web server user.
 
+Should work on any unix-like system with PHP 5.5 or above.
 
-Be sure to include the enctype in your form tag. Like this:
-
-<form method="POST" action="index.php" enctype="multipart/form-data">
-Without the attribute enctype="multipart/form-data", the image won't be uploaded. enctype is the encoding type that specifies how the form-data should be encoded when submitting the form. Without it file uploads won't work.
+Protip: you can use it as a blog too, by setting the following:
+ADMINOPONLY=1,
+SORTBUMP=0
+REPLYBOX_TOP=0
+SHOWPOSTLIST=1
+PERPAGE=1 if you want
 
  
