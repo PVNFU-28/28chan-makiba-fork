@@ -1120,7 +1120,7 @@ if(isset($_GET['mode'])){
                 echo '<h2>Comment posted. Redirecting to the thread.</h2>';
             }
         } else {
-            echo '<meta http-equiv="refresh" content="2; url='.URLROOT.'0.html"></head><body>';
+            echo '<meta http-equiv="refresh" content="2; url=".URLROOT."0.html"></head><body>';
             if($pinf['src'] != ""){
                 echo '<h2>'.$pinf['file'].' uploaded.';
             } else {
