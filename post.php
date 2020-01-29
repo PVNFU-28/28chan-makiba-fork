@@ -72,7 +72,7 @@ define("SHOWPOSTLIST", 0);
 define("REPLYBOX_TOP", 1); // show the 'reply' box at the top? doesn't affect thread start box
 define("POSTTRUNCATE", 2000);
 define("FORMATCODE", 1);
-define("SCRIPTNAME", "sukiyaki.php");
+define("SCRIPTNAME", "post.php");
 define("ADMINPASS", "some password");
 define("ADMINTRIP", "the part after the ! in an admin's trip");
 define("SECRETKEY", "replace this string with something really random"); // something "random"
