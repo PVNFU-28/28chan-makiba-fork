@@ -60,7 +60,7 @@ hr{border-color:#b7c5d9;}
 </form>';
 </html>
 <?php
-  
+
 
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');
@@ -90,7 +90,7 @@ define("BADFILESFILE", "bad"); // where the hashes of banned files are stored
 define("BANFILE", "bans"); // where banned IPs are stored
 define("MAXWIDTH", 3000); // max image width
 define("MAXHEIGHT", 3000); // max image height
-define("MAXFSIZE", 2000000); // max file size
+define("MAXFSIZE", 2000000); // max file size in Bytes
 define("TWIDTH_OP", 230); // thumbnail width
 define("TWIDTH_REPLY", 190); // thumbnail width
 define("THUMBICONS", array());
@@ -227,7 +227,7 @@ function num_posts($parent){
     foreach(getposts() as $p){
         if($p['thread'] == $parent)
             $c++;
-    } 
+    }
    return $c;
 }
 
@@ -417,9 +417,9 @@ function old_style_thread($thread, $full) {
                 }
                 $sortArray[$key][] = $value;
             }
-        } 
+        }
         
-        array_multisort($sortArray['id'],SORT_ASC,$replies); 
+        array_multisort($sortArray['id'],SORT_ASC,$replies);
         //print_r($replies);
     }
 
@@ -558,7 +558,7 @@ return false;
 <font color="#800000" size=5>
 <b><SPAN>'.TITLE.'</SPAN></b></font>
 <hr width="90%" size=1>';
-    
+
     if($op > 0){
         if(REPLYBOX_TOP){
             $r .= postform($op);
@@ -937,7 +937,7 @@ if(isset($_GET['mode'])){
 			}
 
 			$fi = finfo_open(FILEINFO_MIME_TYPE);
-			$pinf['size'] = filesize($loc.".tmp");		
+			$pinf['size'] = filesize($loc.".tmp");
 
             if(!$ad){
                 if(!in_array(finfo_file($fi, $loc.".tmp"), ALLOWEDTYPES)
@@ -1032,7 +1032,7 @@ if(isset($_GET['mode'])){
                     elseif(strcmp($type, "image/png") == 0){
                         $im->writeImage(THUMBDIR.$loc.".png" );
                         rename($loc.".tmp", IMGDIR.$loc.".png");
-                                               
+
                         $pinf['thumb'] = $loc.".png";
                         $pinf['src'] =  $loc.".png";
                     }
@@ -1043,7 +1043,7 @@ if(isset($_GET['mode'])){
 				$pinf['thumb'] = THUMBICONS[$type];
 			}
 			$pinf['width'] = $width;
-			$pinf['height'] = $height;	
+			$pinf['height'] = $height;
 			$pinf['hash'] = hash_file("sha256", IMGDIR.$pinf['src']);
 		} else {
             if(!isset($_FILES['img']) && !ALLOWNOIMAGEOP && !$ad){
@@ -1093,7 +1093,7 @@ if(isset($_GET['mode'])){
                 setcookie("dk",$_POST['key'],time()+(60*60*24*7));
                 $_COOKIES["dk"] = $_POST['key'];
             }
-        
+
 		/* remember to clean the key when comparing when a user wants to delete a post */
 		$pinf['subject'] = clean($_POST['subject']);
 		$pinf['thread'] = $op;
@@ -1107,10 +1107,10 @@ if(isset($_GET['mode'])){
         if(num_posts(0) > MAXTHREADS) {
             delete_last_thread();
         }
-        
-        
+
+
 		insertpost($pinf);
-        
+
         echo '<!doctype html><html><head>';
         if($pinf['email'] == "noko"){
             echo '<meta http-equiv="refresh" content="2; url='.URLROOT.THREADDIR.$pinf['id'].'.html"></head><body>';
