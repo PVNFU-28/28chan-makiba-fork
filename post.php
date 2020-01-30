@@ -950,7 +950,7 @@ if(isset($_GET['mode'])){
                     abort_error(ERR_BADFILE);
                 }
             }
-			
+
 			$type = mime_content_type($loc.".tmp");
 
 			if($pinf['size'] > MAXFSIZE && !$ad){
