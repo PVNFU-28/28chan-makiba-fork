@@ -17,10 +17,10 @@ Installation
 To install, move all the files in the repo to a directory in the
 root of your webserver. For example, for a board called `/b/`, move
 them to /usr/share/nginx/html/b/. Create the directories `src`,
-`thumb` and `res` and the file `posts` and make sure they are all
+`thumb, `bans`, `bad` and `res` and the files `posts`, `ìnfo` and make sure they are all
 writable to by the web server user.
 
-Should work on any unix-like system with PHP 5.5 or above.
+Should work on any unix-like system with PHP 5.5 or above and GD Library.
 
 Protip: you can use it as a blog too, by setting the following:
 ADMINOPONLY=1,
