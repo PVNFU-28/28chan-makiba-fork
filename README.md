@@ -17,7 +17,7 @@ Installation
 To install, move all the files in the repo to a directory in the
 root of your webserver. For example, for a board called `/b/`, move
 them to /usr/share/nginx/html/b/. Create the directories `src`,
-`thumb`, `bans`, `bads` and `res` and the file `posts` and make sure they are all
+`thumb` and `res` and the file `posts` and make sure they are all
 writable to by the web server user.
 
 Should work on any unix-like system with PHP 5.5 or above.
